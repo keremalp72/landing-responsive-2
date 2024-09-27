@@ -702,8 +702,8 @@ img{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: space-between;
  gap: 40px;
 }
 
@@ -1313,6 +1313,7 @@ text-align: left;
 /* DESKTOP */
 @media screen and (min-width: 1280px) {
   .container {
+    margin: auto;
     width: 1280px;
     padding-left: 80px;
     padding-right: 80px;
